@@ -1,6 +1,6 @@
 {
-  "generated_at": "Sat, 30 May 2026 02:28:29 +0000",
-  "generated_at_iso": "2026-05-30T02:28:29.876734+00:00",
+  "generated_at": "Sat, 30 May 2026 02:42:14 +0000",
+  "generated_at_iso": "2026-05-30T02:42:14.450452+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -2041,7 +2041,7 @@
         "why_relevant": "关键词命中：metabolomics；arXiv 分类重合：q-bio.BM、q-bio.MN"
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
-      "last_seen_at": "2026-05-30T02:28:29.876734+00:00",
+      "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2254,7 +2254,7 @@
         "why_relevant": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN"
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
-      "last_seen_at": "2026-05-30T02:28:29.876734+00:00",
+      "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2311,7 +2311,7 @@
         "why_relevant": "关键词命中：proteomics；arXiv 分类重合：q-bio.BM"
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
-      "last_seen_at": "2026-05-30T02:28:29.876734+00:00",
+      "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2708,19 +2708,19 @@
     "new_paper_count": 3,
     "days": 7,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2026-05-23T02:28:29.876734+00:00",
+    "collection_cutoff_iso": "2026-05-23T02:42:14.450452+00:00",
     "max_per_topic": 25,
-    "llm_enabled": true,
+    "llm_enabled": false,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 1,
     "failed_fetches": 0,
     "retained_paper_count": 32,
-    "retained_recent_low_count": 30,
+    "retained_recent_low_count": 33,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 154432,
+    "data_bytes": 154433,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
