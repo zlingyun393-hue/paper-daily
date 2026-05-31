@@ -1,6 +1,6 @@
 {
-  "generated_at": "Sat, 30 May 2026 02:42:14 +0000",
-  "generated_at_iso": "2026-05-30T02:42:14.450452+00:00",
+  "generated_at": "Sun, 31 May 2026 08:30:10 +0000",
+  "generated_at_iso": "2026-05-31T08:30:10.720004+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -2042,7 +2042,7 @@
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
       "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2605.25550v1",
@@ -2255,7 +2255,7 @@
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
       "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2605.26192v1",
@@ -2312,7 +2312,7 @@
       },
       "first_seen_at": "2026-05-30T02:28:29.876734+00:00",
       "last_seen_at": "2026-05-30T02:42:14.450452+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2605.27808v1",
@@ -2705,17 +2705,17 @@
   ],
   "stats": {
     "paper_count": 35,
-    "new_paper_count": 3,
-    "days": 7,
-    "collection_mode": "lookback",
-    "collection_cutoff_iso": "2026-05-23T02:42:14.450452+00:00",
+    "new_paper_count": 0,
+    "days": 1,
+    "collection_mode": "incremental",
+    "collection_cutoff_iso": "2026-05-30T02:42:14.450452+00:00",
     "max_per_topic": 25,
     "llm_enabled": false,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 1,
     "failed_fetches": 0,
-    "retained_paper_count": 32,
+    "retained_paper_count": 35,
     "retained_recent_low_count": 33,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
