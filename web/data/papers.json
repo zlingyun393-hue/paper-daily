@@ -1,6 +1,6 @@
 {
-  "generated_at": "Tue, 02 Jun 2026 12:30:02 +0000",
-  "generated_at_iso": "2026-06-02T12:30:02.084266+00:00",
+  "generated_at": "Wed, 03 Jun 2026 15:55:58 +0000",
+  "generated_at_iso": "2026-06-03T15:55:58.830416+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -2713,20 +2713,21 @@
     "llm_enabled": false,
     "llm_concurrency": 2,
     "recent_history_days": 45,
-    "successful_fetches": 1,
-    "failed_fetches": 0,
+    "successful_fetches": 0,
+    "failed_fetches": 1,
     "retained_paper_count": 35,
     "retained_recent_low_count": 33,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 154433,
+    "data_bytes": 154481,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
       "medium": 0,
       "low": 0,
       "unknown": 0
-    }
+    },
+    "last_error": "All arXiv requests failed."
   }
 }
