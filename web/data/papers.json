@@ -1,99 +1,37 @@
 {
-  "generated_at": "Thu, 16 Jul 2026 23:02:05 +0000",
-  "generated_at_iso": "2026-07-16T23:02:05.646494+00:00",
-  "config_source": "file",
+  "generated_at": "Fri, 17 Jul 2026 22:54:14 +0000",
+  "generated_at_iso": "2026-07-17T22:54:14.300252+00:00",
+  "config_source": "issue",
   "topics": [
     {
-      "id": "llm_low_precision_quantization",
-      "name": "大模型低精度量化",
-      "description": "关注大语言模型低比特量化、混合精度、量化感知训练、后训练量化、权重量化、激活量化、KV cache 量化以及量化对推理性能和精度的影响。",
+      "id": "algae_space_multiomics",
+      "name": "Microalgae Space Multiomics",
+      "description": "Focus on Chlorella, Nannochloropsis, Phaeodactylum tricornutum multiomics analysis, and microalgae cultivation under space station microgravity environment.",
       "keywords": [
-        "large language model quantization",
-        "LLM quantization",
-        "low-bit quantization",
-        "post-training quantization",
-        "weight-only quantization",
-        "activation quantization",
-        "mixed precision",
-        "FP8",
-        "INT4",
-        "INT8",
-        "KV cache quantization"
+        "Chlorella",
+        "Nannochloropsis",
+        "Phaeodactylum tricornutum",
+        "microalgae",
+        "multiomics",
+        "transcriptomics",
+        "metabolomics",
+        "proteomics",
+        "RBR gene",
+        "retinoblastoma-related protein",
+        "cell cycle",
+        "space station",
+        "microgravity",
+        "space biology",
+        "algae cultivation",
+        "photosynthesis",
+        "stress response"
       ],
       "arxiv_categories": [
-        "cs.CL",
-        "cs.LG",
-        "cs.AI",
-        "cs.DC"
-      ]
-    },
-    {
-      "id": "tensor_compute_unit_architecture",
-      "name": "张量计算单元结构",
-      "description": "关注 GPU/NPU/TPU 张量计算单元、矩阵乘加阵列、数据流架构、片上存储层次、低精度张量核、AI 加速器微架构和算子映射。",
-      "keywords": [
-        "tensor processing unit",
-        "tensor core",
-        "matrix multiply unit",
-        "systolic array",
-        "AI accelerator architecture",
-        "NPU architecture",
-        "GPU tensor core",
-        "low precision tensor compute",
-        "dataflow architecture",
-        "on-chip memory hierarchy"
-      ],
-      "arxiv_categories": [
-        "cs.AR",
-        "cs.DC",
-        "cs.LG",
-        "cs.PF"
-      ]
-    },
-    {
-      "id": "llm_inference_cluster_communication",
-      "name": "大模型推理集群通信优化",
-      "description": "关注分布式大模型推理、prefill/decode 分离、张量并行、流水并行、专家并行、跨节点通信、调度、负载均衡和 serving 系统吞吐延迟优化。",
-      "keywords": [
-        "LLM inference serving",
-        "distributed inference",
-        "inference cluster",
-        "tensor parallelism",
-        "pipeline parallelism",
-        "expert parallelism",
-        "all-reduce",
-        "collective communication",
-        "prefill decode disaggregation",
-        "serving scheduler"
-      ],
-      "arxiv_categories": [
-        "cs.DC",
-        "cs.PF",
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "id": "kvcache_compression_storage_scheduling",
-      "name": "KV cache 压缩与存储调度",
-      "description": "关注大模型推理中的 KV cache 压缩、淘汰、分页、卸载、预取、层级存储、显存管理和长上下文推理效率优化。",
-      "keywords": [
-        "KV cache compression",
-        "KV cache eviction",
-        "KV cache scheduling",
-        "paged attention",
-        "attention cache",
-        "long context inference",
-        "memory offloading",
-        "GPU memory management",
-        "cache prefetching",
-        "LLM serving memory"
-      ],
-      "arxiv_categories": [
-        "cs.CL",
-        "cs.LG",
-        "cs.DC",
-        "cs.PF"
+        "q-bio.BM",
+        "q-bio.GN",
+        "q-bio.MN",
+        "astro-ph.EP",
+        "physics.bio-ph"
       ]
     }
   ],
@@ -327,19 +265,19 @@
     "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-07-15T23:02:04.478075+00:00",
+    "collection_cutoff_iso": "2026-07-16T23:02:05.646494+00:00",
     "max_per_topic": 25,
     "llm_enabled": false,
     "llm_concurrency": 2,
     "recent_history_days": 45,
-    "successful_fetches": 4,
+    "successful_fetches": 1,
     "failed_fetches": 0,
     "retained_paper_count": 3,
     "retained_recent_low_count": 1,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 16923,
+    "data_bytes": 14831,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
