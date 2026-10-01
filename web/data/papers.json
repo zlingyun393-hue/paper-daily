@@ -1,6 +1,6 @@
 {
-  "generated_at": "Wed, 30 Sep 2026 01:10:27 +0000",
-  "generated_at_iso": "2026-09-30T01:10:27.105069+00:00",
+  "generated_at": "Thu, 01 Oct 2026 01:10:05 +0000",
+  "generated_at_iso": "2026-10-01T01:10:05.171578+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -203,14 +203,69 @@
       "first_seen_at": "2026-05-30T02:19:40.223686+00:00",
       "last_seen_at": "2026-05-30T02:19:40.223686+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2609.38908v1",
+      "source": "arXiv",
+      "title": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+      "authors": [
+        "Suyuan Zhao",
+        "Minghao Liu",
+        "Yizhen Luo",
+        "Zaiqing Nie"
+      ],
+      "summary": "Single-cell transcriptomics enables profiling of cellular states at unprecedented resolution, but its high dimensionality, sparsity, and technical batch effects pose significant challenges for representation learning. Existing single-cell foundation models typically encode each cell independently or only model cells from the same batch for denoising, thereby underutilizing the rich relational information across batches and cell types to model gene expression patterns. We argue that single-cell models can benefit from more informative cell-context modeling. By comparing consistency and variation across cells, models can capture fine-grained gene-gene dependencies associated with cell states, which are essential for learning high-quality representations. Inspired by the use of multiple sequence alignment (MSA) context in protein modeling, we propose CellMSA, a single-cell representation learning framework that introduces an MSA-inspired inductive bias into transcriptomic modeling. For each target cell, CellMSA retrieves relevant cells from different batches and biologically related cell types as context, and summarizes cross-cell patterns into a context-dependent gene-pair representation. This representation is then injected into a pair-aware target-cell encoder for fine-grained representation learning. We pretrain CellMSA on a large-scale human single-cell corpus of approximately 109 million cell observations, including 65.6 million primary observations. Experiments show that our framework consistently outperforms existing methods across multiple benchmarks. Code is available at the following repository: https://github.com/PharMolix/CellMSA.",
+      "published": "2026-09-30T03:55:27Z",
+      "updated": "2026-09-30T03:55:27Z",
+      "paper_url": "http://arxiv.org/abs/2609.38908v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.38908v1",
+      "categories": [
+        "q-bio.GN",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "seed_topic": "algae_space_multiomics",
+      "matches": [
+        {
+          "topic_id": "algae_space_multiomics",
+          "topic_name": "Microalgae Space Multiomics",
+          "score": 0.304,
+          "level": "low",
+          "reason": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN",
+          "keyword_hits": [
+            "transcriptomics"
+          ]
+        }
+      ],
+      "best_match": {
+        "topic_id": "algae_space_multiomics",
+        "topic_name": "Microalgae Space Multiomics",
+        "score": 0.304,
+        "level": "low",
+        "reason": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN",
+        "keyword_hits": [
+          "transcriptomics"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Single-cell transcriptomics enables profiling of cellular states at unprecedented resolution, but its high dimensionality, sparsity, and technical batch effects pose significant challenges for representation learning.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN"
+      },
+      "first_seen_at": "2026-10-01T01:10:05.171578+00:00",
+      "last_seen_at": "2026-10-01T01:10:05.171578+00:00",
+      "retained_from_previous_run": false
     }
   ],
   "stats": {
-    "paper_count": 2,
-    "new_paper_count": 0,
+    "paper_count": 3,
+    "new_paper_count": 1,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-09-29T01:41:17.498567+00:00",
+    "collection_cutoff_iso": "2026-09-30T01:10:27.105069+00:00",
     "max_per_topic": 25,
     "llm_enabled": false,
     "llm_concurrency": 2,
@@ -222,7 +277,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 11186,
+    "data_bytes": 15049,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
