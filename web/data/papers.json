@@ -1,6 +1,6 @@
 {
-  "generated_at": "Tue, 17 Nov 2026 04:23:01 +0000",
-  "generated_at_iso": "2026-11-17T04:23:01.244090+00:00",
+  "generated_at": "Wed, 18 Nov 2026 03:30:29 +0000",
+  "generated_at_iso": "2026-11-18T03:30:29.556424+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -205,6 +205,58 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2611.22256v1",
+      "source": "arXiv",
+      "title": "ST-FateFlow: Continuous Gene-Spatial Reconstruction with Differentiation-Potential Learning from Time-Resolved Spatial Transcriptomics",
+      "authors": [
+        "Zhe Yu",
+        "Xiaobo Sun",
+        "Hao Wu"
+      ],
+      "summary": "Time-resolved spatial transcriptomics provides a powerful view of dynamic biological processes by measuring cellular states together with their spatial organization across time. However, destructive profiling and experimental cost restrict observations to a few discrete time points collected from independent samples, with no known cell pairing across time. This makes it difficult to reconstruct gene expression and tissue organization at unobserved stages and to characterize differentiation-associated dynamics. Here, we introduce ST-FateFlow, a flow-matching framework for continuous gene-spatial dynamics and differentiation-potential learning. ST-FateFlow jointly learns gene-expression and spatial-coordinate velocity fields, enabling interpolation of missing time points and continuous modeling of transcriptional evolution and tissue remodeling. In parallel, it independently learns a time-conditioned differentiation potential, whose values organize cell states along inferred differentiation progressions and support the analysis of differentiation-associated transcriptional changes. Across multiple time-resolved spatial transcriptomics datasets, ST-FateFlow effectively captures coordinated gene-expression and spatial dynamics. Case studies further show that the learned potential landscapes are consistent with known developmental and regenerative trajectories and help identify candidate genes associated with differentiation progression.",
+      "published": "2026-11-17T06:00:29Z",
+      "updated": "2026-11-17T06:00:29Z",
+      "paper_url": "http://arxiv.org/abs/2611.22256v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22256v1",
+      "categories": [
+        "q-bio.GN"
+      ],
+      "seed_topic": "algae_space_multiomics",
+      "matches": [
+        {
+          "topic_id": "algae_space_multiomics",
+          "topic_name": "Microalgae Space Multiomics",
+          "score": 0.241,
+          "level": "low",
+          "reason": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN",
+          "keyword_hits": [
+            "transcriptomics"
+          ]
+        }
+      ],
+      "best_match": {
+        "topic_id": "algae_space_multiomics",
+        "topic_name": "Microalgae Space Multiomics",
+        "score": 0.241,
+        "level": "low",
+        "reason": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN",
+        "keyword_hits": [
+          "transcriptomics"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Time-resolved spatial transcriptomics provides a powerful view of dynamic biological processes by measuring cellular states together with their spatial organization across time.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：transcriptomics；arXiv 分类重合：q-bio.GN"
+      },
+      "first_seen_at": "2026-11-18T03:30:29.556424+00:00",
+      "last_seen_at": "2026-11-18T03:30:29.556424+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2610.11185v1",
       "source": "arXiv",
       "title": "Predictive Multiplicity in Cell-Fate Assignment: Label-Free Rashomon Sets and the Limits of Per-Cell Certification",
@@ -254,11 +306,11 @@
     }
   ],
   "stats": {
-    "paper_count": 3,
-    "new_paper_count": 0,
+    "paper_count": 4,
+    "new_paper_count": 1,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-16T01:42:58.765364+00:00",
+    "collection_cutoff_iso": "2026-11-17T04:23:01.244090+00:00",
     "max_per_topic": 25,
     "llm_enabled": false,
     "llm_concurrency": 2,
@@ -270,7 +322,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 15044,
+    "data_bytes": 18657,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
